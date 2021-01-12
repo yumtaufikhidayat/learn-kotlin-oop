@@ -1,5 +1,5 @@
-# Compiled class file
-*.class
+# Compiled com.taufik.learnkotlinoop.classes file
+*.com.taufik.learnkotlinoop.classes
 
 # Log file
 *.log
