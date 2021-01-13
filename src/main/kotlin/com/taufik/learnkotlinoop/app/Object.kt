@@ -1,5 +1,6 @@
 package com.taufik.learnkotlinoop.app
 
+import com.taufik.learnkotlinoop.classes.Car
 import com.taufik.learnkotlinoop.classes.Person
 
 fun main() {
@@ -11,6 +12,7 @@ fun main() {
     taufik.lastName = "Hidayat"
 
     println(taufik.firstName)
+    println(taufik.middleName)
     println(taufik.lastName)
 
 }
