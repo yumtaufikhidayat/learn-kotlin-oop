@@ -1,6 +1,5 @@
-package com.taufik.learnkotlinoop.app
+package com.taufik.learnkotlinoop.app.`object`
 
-import com.taufik.learnkotlinoop.classes.Car
 import com.taufik.learnkotlinoop.classes.Person
 
 fun main() {
