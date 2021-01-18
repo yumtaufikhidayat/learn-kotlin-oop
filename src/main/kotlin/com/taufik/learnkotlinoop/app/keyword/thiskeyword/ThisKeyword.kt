@@ -1,4 +1,4 @@
-package com.taufik.learnkotlinoop.app.thiskeyword
+package com.taufik.learnkotlinoop.app.keyword.thiskeyword
 
 import com.taufik.learnkotlinoop.classes.Person
 
