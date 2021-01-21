@@ -8,7 +8,7 @@ fun main() {
 
     // Accessing some methods of Any class
     println(smartPhone.toString())
-    println(smartPhone.equals(""))
     println(smartPhone.hashCode())
+    println(smartPhone.equals(""))
 
 }
