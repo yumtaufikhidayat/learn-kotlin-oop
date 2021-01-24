@@ -6,6 +6,6 @@ fun main() {
     val user = User("Taufik", "rahasia")
 
     // We can print to string explicitly by adding .toString (optional).
-    // It will convert / call the .toString function automatically.
+    // The object will convert / call the toString function automatically.
     println(user)
 }
