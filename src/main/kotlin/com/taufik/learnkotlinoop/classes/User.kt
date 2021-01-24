@@ -9,4 +9,10 @@ class User(
     var usernameParam: String,
     var passwordParam: String
 ) {
+
+    // We will override toString function to change the return value.
+    override fun toString(): String {
+        return "User with username = $usernameParam"
+    }
+
 }
