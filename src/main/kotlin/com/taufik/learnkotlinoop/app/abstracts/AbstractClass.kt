@@ -1,4 +1,4 @@
-package com.taufik.learnkotlinoop.app.`class`
+package com.taufik.learnkotlinoop.app.abstracts
 
 import com.taufik.learnkotlinoop.classes.City
 import com.taufik.learnkotlinoop.classes.Country
