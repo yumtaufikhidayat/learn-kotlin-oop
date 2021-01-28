@@ -23,6 +23,7 @@ open class Teacher(val name: String) {
     }
 }
 
+// This class inherit from superclass that override function with protected visibility modifiers.
 class SuperTeacher(name: String) : Teacher(name) {
 
     override fun test() {
