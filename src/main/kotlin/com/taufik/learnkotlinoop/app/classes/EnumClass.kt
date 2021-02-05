@@ -22,5 +22,5 @@ fun main() {
 
     man.printDescription()
     woman.printDescription()
-    
+
 }
