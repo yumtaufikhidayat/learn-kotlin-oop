@@ -19,6 +19,10 @@ fun main() {
     val aplikasi = Aplikasi("Kotlin App")
     val app2 = App2("Kotlin App")
 
+    println(app)
+    println(aplikasi)
+    println(app2)
+
     sayHello { "Taufik" }
 }
 
