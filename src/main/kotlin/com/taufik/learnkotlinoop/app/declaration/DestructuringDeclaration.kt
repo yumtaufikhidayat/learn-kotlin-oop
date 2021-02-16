@@ -1,6 +1,7 @@
 package com.taufik.learnkotlinoop.app.declaration
 
 import com.taufik.learnkotlinoop.classes.Game
+import com.taufik.learnkotlinoop.classes.minMax
 
 fun main() {
 
@@ -13,4 +14,8 @@ fun main() {
     val (names, prices) = game
     println(names)
     println(prices)
+
+    val (min, max) = minMax(100, 200)
+    println(min)
+    println(max)
 }
