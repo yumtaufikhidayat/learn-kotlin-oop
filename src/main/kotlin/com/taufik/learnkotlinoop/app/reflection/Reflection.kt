@@ -7,9 +7,6 @@ import com.taufik.learnkotlinoop.exception.ValidationException
 import kotlin.reflect.full.findAnnotation
 import kotlin.reflect.full.memberProperties
 
-// Reflection is an ability to see our application structure when runs.
-// It is usually used when we create library or framework, so it can automate our work.
-// To access reflection class from an object, we can use "::class" keyword or directly from ClassName::class.
 fun main() {
 
     val request = CreateProductRequest("1", "Indomie", 5_000L)
