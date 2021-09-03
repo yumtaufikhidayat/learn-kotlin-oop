@@ -9,10 +9,11 @@ fun main() {
     val avanza = Car("Toyota")
     val mobilio = Car("Honda", "Mobilio")
     val xenia = Car("Daihatsu")
+    val luxio = Car("Daihatsu Toyota", "", 0)
 
     // Access attributes of class can be used to print result
     println(avanza.brand)
     println(mobilio.year)
     println(xenia.brand + " " + avanza.year)
-
+    println(luxio.brand)
 }

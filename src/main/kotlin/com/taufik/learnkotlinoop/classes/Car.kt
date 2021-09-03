@@ -25,9 +25,17 @@ class Car (
         println("Secondary constructor 1")
     }
 
+    constructor(nameParam: String, yearParam: Int): this("", nameParam, yearParam){
+        //do something
+    }
+
     // This called secondary constructor. It has assigned to secondary constructor above
     constructor(brandParam: String) : this(brandParam, "") {
         println("Secondary constructor 2")
+    }
+
+    constructor(yearParam: Int): this("", 2021){
+        //
     }
 
     // Objects initialize
