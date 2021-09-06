@@ -14,5 +14,4 @@ class User(
     override fun toString(): String {
         return "User with username = $usernameParam"
     }
-
 }

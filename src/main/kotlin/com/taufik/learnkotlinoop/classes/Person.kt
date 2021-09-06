@@ -2,13 +2,13 @@ package com.taufik.learnkotlinoop.classes
 
 class Person {
 
-    //Objects initialize
+    // Objects initialize
     var firstName: String = ""
     var middleName: String? = null
     var lastName: String = ""
 
     // Functions inside class
-    // Also this function using "this" keyword to refer the properties
+    // Also, this function using "this" keyword to refer the properties
     fun sayHello(name: String) {
         println("Hello $name, my name is ${this.firstName}")
     }
