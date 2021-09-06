@@ -12,9 +12,9 @@ open class Employee(val name: String) {
     }
 }
 
-// These classes are inherit from parent class (Employee) and called child class.
-// All properties and function will be inherit from parent class.
-// If we want extend from parent class, just add : mark.
+// These classes are inherited from parent class (Employee) and called child class.
+// All properties and function will be inherited from parent class.
+// If we want to extend from parent class, just add : mark.
 open class Manager(name: String) : Employee(name){
 
     // This function is override from function in parent class
