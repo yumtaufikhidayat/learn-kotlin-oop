@@ -1,7 +1,7 @@
 package com.taufik.learnkotlinoop.classes
 
 // This class is using constructor. Constructor is located in bracket () as parameter.
-// Also this class using initializer block to execute some codes inside class.
+// Also, this class using initializer block to execute some codes inside class.
 // By default, we can't add some codes here except constructor and attribute(s) to execute
 // Or our code will be error.
 // This class is using secondary constructor.
@@ -13,7 +13,7 @@ class Car (
     yearParam: Int
 ) {
 
-    // This code will be execute after Kotlin executes the constructor
+    // This code will be executed after Kotlin executes the constructor
     // Never add program too many because will make the code's burden is heavy
     init {
         println("Car $brandParam dibuat pada tahun $yearParam")
