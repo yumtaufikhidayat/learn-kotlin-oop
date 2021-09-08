@@ -12,10 +12,12 @@ fun main() {
     println(shape.width)
     println(shape.height)
     println(shape.base)
+    shape.printName()
 
     val rectangle = Rectangle()
     println(rectangle.length)
     println(rectangle.width)
+    rectangle.printName()
 
     val triangle = Triangle()
     println(triangle.height)

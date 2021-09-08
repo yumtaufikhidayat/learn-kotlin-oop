@@ -21,7 +21,7 @@ open class Manager(name: String) : Employee(name){
     // It means, we rewrite the function with the same name as function in parent class
     // Just add override before fun
 
-    // Also this function is final override.
+    // Also, this function is final override.
     // It means we cannot override this function to another child class,
     // If we make this class as parent class.
     // We can add final before override
