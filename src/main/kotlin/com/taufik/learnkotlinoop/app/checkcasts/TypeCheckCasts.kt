@@ -11,7 +11,7 @@ fun main() {
     printObjectWhen(Laptop("Acer")) // Class with parameter
     printObjectWhen(HandPhone("Samsung S21 Ultra")) // Class with parameter
     printString("Taufik")
-//    printString(1) // It will failed to cast because 1 is not String type
+//    printString(1) // It will fail to cast because 1 is not String type
     printStringSafe(1) // It will return null as value
 }
 
@@ -45,7 +45,7 @@ fun printObjectIf(any: Any) {
 
 // We can cast to another type using as.
 // It will force to certain data type.
-// But this cast is unsafe cast and not recommended to go.
+// But this cast is unsafe cast and not recommended going.
 // If data type is not as same as we want, it will throw ClassCastException.
 fun printString(any: Any) {
     val value = any as String
