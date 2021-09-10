@@ -15,7 +15,7 @@ class PremiumCustomer : Customer {
 }
 
 // But if we add primary constructor in child class,
-// The parent class that inherits must be assign to parent's primary constructor.
+// The parent class that inherits must be assigned to parent's primary constructor.
 // We don't need to add super in secondary constructor, just use this to access primary constructor
 class ExecutiveCustomer(name: String, balance: Long) : Customer(name, "", balance) {
     constructor(name: String) : this(name, 0)
