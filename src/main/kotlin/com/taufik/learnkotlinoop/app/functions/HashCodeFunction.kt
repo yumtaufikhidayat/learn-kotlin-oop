@@ -15,5 +15,5 @@ fun main() {
     // Both of object has same memory address now, so it will return to true value
     println(company1.hashCode())
     println(company2.hashCode())
-
+    println(company1.hashCode() == company2.hashCode())
 }
