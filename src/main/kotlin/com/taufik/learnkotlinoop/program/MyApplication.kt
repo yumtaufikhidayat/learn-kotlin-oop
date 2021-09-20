@@ -1,4 +1,4 @@
-package com.taufik.learnkotlinoop.proram
+package com.taufik.learnkotlinoop.program
 
 import com.taufik.learnkotlinoop.annotations.Fancy
 

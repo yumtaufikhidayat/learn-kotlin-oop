@@ -1,6 +1,6 @@
 package com.taufik.learnkotlinoop.app.annotation
 
-import com.taufik.learnkotlinoop.proram.MyApplication
+import com.taufik.learnkotlinoop.program.MyApplication
 
 fun main() {
 
