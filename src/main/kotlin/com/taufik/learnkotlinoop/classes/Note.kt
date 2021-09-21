@@ -3,7 +3,7 @@ package com.taufik.learnkotlinoop.classes
 class Note(title: String) {
 
     // By default, Kotlin will make getter and setter function automatically when we initialize properties.
-    var title : String = title
+    var title: String = title
 
         // Keyword "field" means to title
         get() {

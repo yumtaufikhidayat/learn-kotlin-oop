@@ -12,6 +12,7 @@ fun main() {
     // Also, Kotlin will call setter function to change data / value.
     println(note.title)
 
+    note.title = "Belajar OOP"
     note.title = ""
     println(note.title)
 
