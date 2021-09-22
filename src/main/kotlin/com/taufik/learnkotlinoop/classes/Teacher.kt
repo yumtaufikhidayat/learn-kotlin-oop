@@ -1,9 +1,9 @@
 package com.taufik.learnkotlinoop.classes
 
 // There are four visibility modifiers in Kotlin. Public, private, protected, and internal.
-// The Class, properties, interface, function, and etc in Kotlin is public by default. So we can access it from anywhere.
-// If we use private, we can access the class, properties, interface, function, and etc inside the certain place only.
-// If we use protected, we can access the class, properties, interface, function, and etc inside the certain place and the inherits only.
+// The Class, properties, interface, function, etc. in Kotlin is public by default. So we can access it from anywhere.
+// If we use private, we can access the class, properties, interface, function, etc. inside the certain place only.
+// If we use protected, we can access the class, properties, interface, function, etc. inside the certain place and the inherits only.
 // If we use internal, we can access all inside the project only. Not allowed to access outside the project.
 open class Teacher(val name: String) {
 
