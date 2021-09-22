@@ -1,4 +1,4 @@
-package com.taufik.learnkotlinoop.app.init
+package com.taufik.learnkotlinoop.app.properties
 
 import com.taufik.learnkotlinoop.classes.Television
 
