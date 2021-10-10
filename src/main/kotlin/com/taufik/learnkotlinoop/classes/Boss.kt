@@ -12,5 +12,4 @@ class Boss(val bossName: String) {
             println("Hi, my name is $name and my boss name is ${this@Boss.bossName}")
         }
     }
-
 }
