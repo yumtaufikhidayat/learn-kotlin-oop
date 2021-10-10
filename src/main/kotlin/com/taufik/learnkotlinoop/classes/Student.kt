@@ -1,7 +1,6 @@
 package com.taufik.learnkotlinoop.classes
 
-class Student(val name: String, val age: Int) {
-}
+class Student(val name: String, val age: Int)
 
 // This called extension function.
 // We don't make any function in class.
