@@ -1,7 +1,7 @@
 package com.taufik.learnkotlinoop.classes
 
 // Sealed class is designed for inheritance.
-// By default, it is abstract class and can't be initialize as object.
+// By default, it is abstract class and can't be initialized as object.
 // Sealed class is suitable as parent class.
 // And we can add abstract function or abstract properties inside it.
 sealed class Operation(val name: String)
