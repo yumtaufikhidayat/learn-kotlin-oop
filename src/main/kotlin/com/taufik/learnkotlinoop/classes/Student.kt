@@ -8,7 +8,7 @@ class Student(val name: String, val age: Int)
 // By default, extension function is not nullable.
 // We can make extension function nullable by adding ? (question mark).
 fun Student?.sayHello(name: String) {
-    if (this!=null){
+    if (this != null) {
         println("Hello $name, my name is ${this.name} and my age is ${this.age}")
     }
 }
