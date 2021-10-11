@@ -6,11 +6,12 @@ package com.taufik.learnkotlinoop.classes
 // But if it has the constructors, the enum object must be filled.
 // And if it has abstract function, must be overridden when creating enum object.
 // To use enum class, just add "enum" keyword before class.
-enum class Gender(private val description: String) {
-    MALE("Male"),
-    FEMALE("Female");
+enum class Gender(private val description: String, private val age: Int) {
+    MALE("Male", 20),
+    FEMALE("Female", 18);
 
     fun printDescription() {
         println(description)
+        println(age)
     }
 }
