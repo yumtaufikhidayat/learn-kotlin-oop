@@ -4,7 +4,7 @@ import com.taufik.learnkotlinoop.`object`.Application
 
 // Type alias is making a different name from any of data types.
 // We usually use it when any of same name data type.
-// Or to shorten data type so we don't need to write it too long.
+// Or to shorten data type, so we don't need to write it too long.
 // To use type alias, just write "typealias" keyword.
 
 typealias App = Application
