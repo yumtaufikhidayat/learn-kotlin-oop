@@ -3,7 +3,7 @@ package com.taufik.learnkotlinoop.classes
 // Delegation is one of most famous design pattern.
 // In simply, delegation is forwarding properties or function to another object.
 // Kotlin supports delegation without making codes manually.
-// In delegation, properties and function will be delegate to chosen object automatically.
+// In delegation, properties and function will be delegated to chosen object automatically.
 // But we can override properties and function which we want.
 interface Base {
     fun sayHello(name: String)
@@ -39,7 +39,7 @@ class Delegates(private val base: Base) : Base by base
 
 // Delegate automatically.
 // We can override which function or properties we want to.
-class DelegatesOverride(private val base: Base) : Base by base{
+class DelegatesOverride(private val base: Base) : Base by base {
     override fun sayHello(name: String) {
         println("Hi $name")
     }
