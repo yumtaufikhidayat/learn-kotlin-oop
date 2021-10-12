@@ -12,5 +12,5 @@ package com.taufik.learnkotlinoop.classes
 //}
 
 // Destructuring declaration automatically
-data class Game(val game: String, val price: Int)
+data class Game(val game: String, val price: Int, val age: Int)
 

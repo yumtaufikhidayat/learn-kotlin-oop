@@ -11,10 +11,11 @@ fun main() {
 //    val price = games.price
 //    println("$name $price")
 
-    val game = Game("Mario Bros", 500_000)
-    val (names, prices) = game
+    val game = Game("Mario Bros", 500_000, 20)
+    val (names, prices, age) = game
     println(names)
     println(prices)
+    println(age)
 
     val (min, max) = minMax(100, 200)
     println(min)
@@ -27,9 +28,9 @@ fun main() {
 
     // Destructuring lambda parameter
     val login = Login("taufik", "rahasia")
-    login(login){(username, password) ->
-        username == "taufik" && password == "rahasia"
-    }
+    println(login(login) { (uname, pass) ->
+        uname == "taufik" && pass == "rahasia"
+    })
 }
 
 fun login(login: Login, callback: (Login) -> Boolean): Boolean {
