@@ -3,10 +3,10 @@ package com.taufik.learnkotlinoop.classes
 import kotlin.properties.Delegates
 
 // This class using lazy properties.
-// Lazy is a standard library which has been provided, so that new properties will be initialize when it accessed.
+// Lazy is a standard library which has been provided, so that new properties will be initialized when it accessed.
 class Account(description: String = "") {
 
-    // This properties return String type, so it must initialize String as return value
+    // These properties return String type, so it must initialize String as return value
     val name: String by lazy {
         println("Name is called")
         "Taufik"
