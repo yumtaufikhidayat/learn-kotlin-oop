@@ -6,5 +6,6 @@ import com.taufik.learnkotlinoop.annotations.Fancy
 @Fancy(author = "Taufik")
 class MyApplication(val name: String, val version: Int) {
 
+    @Fancy(author = "Wafiq")
     fun info(): String = "Application $name Versi $version"
 }
