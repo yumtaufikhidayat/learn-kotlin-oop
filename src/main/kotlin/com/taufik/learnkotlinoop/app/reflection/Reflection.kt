@@ -21,7 +21,7 @@ fun validateRequest(request: Any) {
     val clazz = request::class
     val properties = clazz.memberProperties
 
-    // iterate one by one, then check @NotBlank annotation is exist
+    // iterate one by one, then check @NotBlank annotation is existed
     for (property in properties) {
         if (property.findAnnotation<NotBlank>() != null) {
             when (val value = property.call(request)) {
