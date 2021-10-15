@@ -33,7 +33,7 @@ fun letFunction() {
 }
 
 // Run function has similarity with let function.
-// By using run function, no parameter in lambda, so we can't accessed object reference by using "it" keyword.
+// By using run function, no parameter in lambda, so we can't access object reference by using "it" keyword.
 // But we can use "this" keyword.
 fun runFunction() {
 
